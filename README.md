@@ -1,4 +1,4 @@
-<img src="https://github.com/bondgh0954/Kubernetes_Project1/issues/3#issue-2391362171" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 <h1>Demo Project</h1>
 
 <h2>Project Description</h2>
