@@ -14,11 +14,11 @@ Deploy MongoDB and MongoExpress with configuration and credentials extrated into
 - <b>Mongo Express</b>
 
 <h2>Detailed Description of Project </h2>
-![image!]{/home/bondgh/Kubernetes_Project1/src/image1.png}
+
 <p align="center">
 Install minikube and start minikube with docker as driver: <br/>
 
-<img src="https://https://github.com/bondgh0954/Kubernetes_Project1/issues/1#issue-2391267151" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/bondgh0954/Kubernetes_Project1/issues/3#issue-2391362171" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <br />
 <br />
