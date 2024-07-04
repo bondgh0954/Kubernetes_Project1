@@ -14,7 +14,7 @@ Deploy MongoDB and MongoExpress with configuration and credentials extrated into
 - <b>Mongo Express</b>
 
 <h2>Detailed Description of Project </h2>
-![image!](/home/bondgh/Kubernetes_Project1/src/image1.png)
+![image!]{/home/bondgh/Kubernetes_Project1/src/image1.png}
 <p align="center">
 Install minikube and start minikube with docker as driver: <br/>
 
