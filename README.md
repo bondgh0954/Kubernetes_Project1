@@ -18,13 +18,21 @@ Deploy MongoDB and MongoExpress with configuration and credentials extrated into
 
 <p align="center">
 Install minikube and start minikube with docker as the driver: <br/>
-![image1](https://github.com/bondgh0954/Kubernetes_Project1/assets/161322743/178b85ce-e415-4138-aba1-8e172f06c3f9)
+<img src='./src/image1.png' height="80%" width="80%" alt="Disk Sanitization Steps">
 
-<img src="https://github.com/bondgh0954/Kubernetes_Project1/issues/3#issue-2391362171" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <br />
 <br />
-Select the disk:  <br/>
+Create yaml configuration files to start mongodb  deployment and service:<br/>
+1. Create a mongodb pod/deployment and in order to communicate with the pod, a Service is required <br/>
+ create internal service to allow only internal components in the cluster to communicate with each other <br/>
+
+ create mod-dpl.yaml file using the visual studio code editor
+ 
+   mod-dpl.yaml <br/>
+     check docker hub for official installation guide of mongodb image <br/>
+     create a secret key in minikube
+     
 <img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
