@@ -44,6 +44,10 @@ Create yaml configuration files to start mongodb  deployment and service:<br/>
      echo -u "password"|base64
 create the secret and mogodb deployment using "Kubectl apply command"
 <img src='./src/image2.png' height="80%" width="80%" alt="Disk Sanitization Steps">
+
+Create a mongodb Service in same mongodb deployment configuration file
+NB: The "target port in the service should be the same as the deployment port
+ 
    
      
 <img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
