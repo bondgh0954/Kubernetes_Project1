@@ -24,12 +24,12 @@ spec:
           valueFrom:
             secretKeyRef:
               name: mod-secret
-              key: my-user
+              key: mongo-root-username
         - name: MONGO_INITDB_ROOT_PASSWORD
           valueFrom:
             secretKeyRef:
               name: mod-secret
-              key: my-pass
+              key: mongo-root-password
 ---
 apiVersion: v1
 kind: Service

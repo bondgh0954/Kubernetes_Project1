@@ -24,14 +24,26 @@ spec:
           valueFrom:
             secretKeyRef:
               name: mod-secret
-              key: my-user
+              key: mongo-root-username
         - name: ME_CONFIG_MONGODB_ADMINPASSWORD
           valueFrom:
             secretKeyRef:
               name: mod-secret
-              key: my-pass
+              key: mongo-root-password
         - name: ME_CONFIG_MONGODB_SERVER
-          valueFrom:
-            configMapKeyRef:
-              name: moe-configmap
-              key: database_url
+          value: mod-service
+            
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: moe-service
+spec:
+  type: LoadBalancer
+  selector:
+    app: mongo-express
+  ports:
+  - protocol: TCP
+    port: 8081
+    targetPort: 8081
+    nodePort: 30023
