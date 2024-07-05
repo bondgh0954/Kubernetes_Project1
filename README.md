@@ -18,6 +18,7 @@ Deploy MongoDB and MongoExpress with configuration and credentials extrated into
 
 <p align="center">
 Install minikube and start minikube with docker as the driver: <br/>
+![image1](https://github.com/bondgh0954/Kubernetes_Project1/assets/161322743/178b85ce-e415-4138-aba1-8e172f06c3f9)
 
 <img src="https://github.com/bondgh0954/Kubernetes_Project1/issues/3#issue-2391362171" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
