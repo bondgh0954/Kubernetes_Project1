@@ -42,6 +42,9 @@ Create yaml configuration files to start mongodb  deployment and service:<br/>
      use base64 to generate the key value pair <br/>
      echo -u "username"|base64
      echo -u "password"|base64
+create the secret and mogodb deployment using "Kubectl apply command"
+<img src='./src/image2.png' height="80%" width="80%" alt="Disk Sanitization Steps">
+   
      
 <img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
