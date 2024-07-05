@@ -40,30 +40,31 @@ Create yaml configuration files to start mongodb  deployment and service:<br/>
      create a new file "mod-secret.yaml" 
      the kind:"Secret" 
      use base64 to generate the key value pair 
-     echo -u "username"|base64
-     echo -u "password"|base64
+     echo -n "username"|base64
+     echo -n "password"|base64
 create the secret and mogodb deployment using "Kubectl apply command"
 <img src='./src/image2.png' height="80%" width="80%" alt="Disk Sanitization Steps">
 
-Create a mongodb Service in same mongodb deployment configuration file
-NB: The "target port in the service should be the same as the deployment port
-create the mongodb service using 'kubectl apply command'
+Create a mongodb Service in same mongodb deployment configuration file <br/>
+NB: The "target port in the service should be the same as the deployment port<br/>
+create the mongodb service using 'kubectl apply command' <br/>
 <img src='./src/image3.png' height="80%" width="80%" alt="Disk Sanitization Steps">
 
-Create mongo express deployment("moe-depl.yaml") and service 
-check docker hub for official configuration guide of mongodb image 
-three environmental variables that need to be set are 
-ME_CONFIG_MONGODB_ADMINUSERNAME            
-ME_CONFIG_MONGODB_ADMINPASSWORD
-ME_CONFIG_MONGODB_SERVER
-The admin username and password is also reference from the secret key created earlier
-Create a configMap ("moe-configmap")to reference the server
-the name of the mod-deployment server should be used as the value
+Create mongo express deployment("moe-depl.yaml") and service <br/>
+check docker hub for official configuration guide of mongodb image <br/>
+three environmental variables that need to be set are <br/>
+ME_CONFIG_MONGODB_ADMINUSERNAME  <br/>          
+ME_CONFIG_MONGODB_ADMINPASSWORD <br/>
+ME_CONFIG_MONGODB_SERVER <br/>
+The admin username and password is also reference from the secret key created earlier <br/>
+create a new file "moe-deployment.yaml" <br/>
+Create a configMap ("moe-configmap")to reference the server <br/>
+the name of the mod-deployment server should be used as the value <br/>
 <img src='./src/image4.png' height="80%" width="80%" alt="Disk Sanitization Steps">
 
 
 
-create a new file "moe-deployment.yaml"
+
 
 
  
