@@ -36,7 +36,12 @@ Create yaml configuration files to start mongodb  deployment and service:<br/>
      NB: Because the configuration file is going to be checked into the repository, it is not a <br/>
      good practice to add username and password in the configuration file <br/>
      therefore: <br/>
-     create a secret key in minikube
+     create a secret key in minikube <br/>
+     create a new file "mod-secret.yaml" <br/>
+     the kind:"Secret" <br/>
+     use base64 to generate the key value pair <br/>
+     echo -u "username"|base64
+     echo -u "password"|base64
      
 <img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
