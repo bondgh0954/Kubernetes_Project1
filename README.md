@@ -70,7 +70,7 @@ get the runing services in the minikube cluster (using the "kubectl get service"
 <img src='./src/image5.png' height="80%" width="80%" alt="Disk Sanitization Steps">
 
 start mongoexpress in the browser using "minikube service moe-service"<br/>
-<img src='./src/image6.png' height="80%" width="80%" alt="Disk Sanitization Steps">
+<img src='./src/image8.png' height="80%" width="80%" alt="Disk Sanitization Steps">
 
 Opened mongo express in the browser
 <img src='./src/image7.png' height="80%" width="80%" alt="Disk Sanitization Steps">
