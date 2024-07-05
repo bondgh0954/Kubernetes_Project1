@@ -47,6 +47,8 @@ create the secret and mogodb deployment using "Kubectl apply command"
 
 Create a mongodb Service in same mongodb deployment configuration file
 NB: The "target port in the service should be the same as the deployment port
+create the mongodb service using 'kubectl apply command'
+<img src='./src/image3.png' height="80%" width="80%" alt="Disk Sanitization Steps">
  
    
      
