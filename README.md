@@ -60,7 +60,23 @@ The admin username and password is also reference from the secret key created ea
 create a new file "moe-deployment.yaml" <br/>
 Create a configMap ("moe-configmap")to reference the server <br/>
 the name of the mod-deployment server should be used as the value <br/>
+
+create the configMap and mongo express deployment and service using the "kubectl apply command"<br/>
+
 <img src='./src/image4.png' height="80%" width="80%" alt="Disk Sanitization Steps">
+
+starting mongo express in the browser <br/>
+get the runing services in the minikube cluster (using the "kubectl get service" command)<br/>
+<img src='./src/image5.png' height="80%" width="80%" alt="Disk Sanitization Steps">
+
+start mongoexpress in the browser using "minikube service moe-service"<br/>
+<img src='./src/image6.png' height="80%" width="80%" alt="Disk Sanitization Steps">
+
+Opened mongo express in the browser
+<img src='./src/image4.png' height="80%" width="80%" alt="Disk Sanitization Steps">
+
+
+
 
 
 
