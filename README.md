@@ -26,11 +26,16 @@ Install minikube and start minikube with docker as the driver: <br/>
 Create yaml configuration files to start mongodb  deployment and service:<br/>
 1. Create a mongodb pod/deployment and in order to communicate with the pod, a Service is required <br/>
  create internal service to allow only internal components in the cluster to communicate with each other <br/>
-
- create mod-dpl.yaml file using the visual studio code editor
+ create ("mod-dpl.yaml") file using the visual studio code editor <br/>
  
-   mod-dpl.yaml <br/>
-     check docker hub for official installation guide of mongodb image <br/>
+
+     check docker hub for official configuration guide of mongodb image <br/>
+     two environmental variables that need to be set are 
+     MONGO_INITDB_ROOT_USERNAME:
+     MONGO_INITDB_ROOT_PASSWORD:
+     NB: Because the configuration file is going to be checked into the repository, it is not a <br/>
+     good practice to add username and password in the configuration file <br/>
+     therefore: <br/>
      create a secret key in minikube
      
 <img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
